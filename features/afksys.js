@@ -145,7 +145,7 @@ function formatDuration(milliseconds) {
 }
 
 client.once(Events.ClientReady, async () => {
-  console.log(`Logged in as ${client.user.tag}`);
+  // console.log(`Logged in as ${client.user.tag}`);
   
   // Setup AFK channels in all guilds
   client.guilds.cache.forEach(async (guild) => {
