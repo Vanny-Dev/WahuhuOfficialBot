@@ -5,7 +5,10 @@ require("./keep_alive.js");
 // require("./features/vcnotif.js")
 // require("./old_features/serverstreak.js")
 // require("./features/serverBackup.js")
-require("./features/afksys.js")
+// require("./offFeatures/afksys.js")
+// require("./offFeatures/announcement.js")
+//require("./features/shutdown.js")
+require("./features/music.js")
 
 const client = new Client({
     intents: [
